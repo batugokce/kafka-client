@@ -1,0 +1,23 @@
+{
+    "type": "record",
+    "namespace": "com.example.kafkaclient.model",
+    "name": "Person",
+    "doc": "Avro Schema for our Person",
+    "fields": [
+        {
+            "name": "id",
+            "type": "long",
+            "doc": "ID Number of Person"
+        },
+        {
+            "name": "name",
+            "type": "string",
+            "doc": "First Name of Person"
+        },
+        {
+            "name": "surname",
+            "type": "string",
+            "doc": "Last Name of Person"
+        }
+    ]
+}
